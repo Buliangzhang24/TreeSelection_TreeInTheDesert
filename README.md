@@ -21,8 +21,8 @@
 
 | **Factor**                                             | **Data Source & Processing Method**                   | **Situation**              |
 | ------------------------------------------------------ | ----------------------------------------------------- | -------------------------- |
-| **Salinity (NDSI)**                                    | Sentinel-2 SWIR bands → NDSI = (B11-B8A)/(B11+B8A) \| | ![[/images/NDSI_Plot.png]]         |
-| **Drought (AI)**                                       | CHIRPS rainfall + MODIS PET → AI = P/PET              | ![[/images/Moisture_Analysis.png]] |
+| **Salinity (NDSI)**                                    | Sentinel-2 SWIR bands → NDSI = (B11-B8A)/(B11+B8A) \| | ![NDSI](/images/NDSI_Plot.png)         |
+| **Drought (AI)**                                       | CHIRPS rainfall + MODIS PET → AI = P/PET              | ![Moisture](/images/Moisture_Analysis.png)|
 | **Wind erosion**                                       | ERA5 wind speed → % of days with strong wind (>5 m/s) | No                         |
 | **Soil texture**                                       | SoilGrids 250m (sand/clay ratio)                      | Low Resolution             |
 | **Economic/ecological needs/invasion risk assessment** | Literature (e.g., FAO crop database)                  | In table                   |
@@ -69,4 +69,4 @@ Economic/ecological weight = fixed 10% (manually set priority).
 | Conocarpus lancifolius  | 4              | 4                 | 5               |
 
 4.     Total score = (Salt tolerance × dynamic salinity weight) + (Drought tolerance × dynamic drought weight) + (Wind resistance × dynamic wind weight) + (Economic value × fixed weight)
-![[/images/Scores.png]]
+![Scores](/images/Scores.png)
