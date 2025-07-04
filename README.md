@@ -68,5 +68,5 @@ Economic/ecological weight = fixed 10% (manually set priority).
 | Acacia nilotica         | 4              | 4                 | 3               |
 | Conocarpus lancifolius  | 4              | 4                 | 5               |
 
-4.     Total score = (Salt tolerance × dynamic salinity weight) + (Drought tolerance × dynamic drought weight) + (Wind resistance × dynamic wind weight) + (Economic value × fixed weight)
+## 4.     Total score = (Salt tolerance × dynamic salinity weight) + (Drought tolerance × dynamic drought weight) + (Wind resistance × dynamic wind weight) + (Economic value × fixed weight)
 ![Scores](/images/Scores.png)
